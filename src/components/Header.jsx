@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSun, FaMoon, IoMdExit } from "react-icons/fa";
+import { FaSun, FaMoon } from "react-icons/fa";
 
 export default function Header({ darkMode, setDarkMode }) {
   function toggleDarkMode() {
