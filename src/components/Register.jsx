@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Footer from "../Footer";
+import Footer from "./Footer";
 
 export default function Register() {
   const [darkMode, setDarkMode] = useState(true);
