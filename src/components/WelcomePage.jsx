@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./App/Header";
+import Footer from "./App/Footer";
 
 export default function WelcomePage() {
   const [darkMode, setDarkMode] = useState(true);
