@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
 
-function App() {
+export default function App() {
   const [notes, setNotes] = useState([]);
   const [darkMode, setDarkMode] = useState(true);
 
@@ -49,5 +49,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

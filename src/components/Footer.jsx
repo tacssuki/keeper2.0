@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
 
-function Footer({ darkMode }) {
+export default function Footer({ darkMode }) {
   const year = new Date().getFullYear();
 
   const SOCIAL_MEDIA_ACCOUNTS = {
@@ -47,5 +47,3 @@ function Footer({ darkMode }) {
     </footer>
   );
 }
-
-export default Footer;

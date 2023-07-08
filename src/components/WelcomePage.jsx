@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const WelcomePage = () => {
+export default function WelcomePage() {
   const [darkMode, setDarkMode] = useState(true);
   useEffect(() => {
     if (darkMode) {
@@ -29,6 +29,4 @@ const WelcomePage = () => {
       </div>
     </div>
   );
-};
-
-export default WelcomePage;
+}

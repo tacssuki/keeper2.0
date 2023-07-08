@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function CreateArea(props) {
+export default function CreateArea(props) {
   const [note, setNote] = useState({
     title: "",
     content: "",
@@ -49,5 +49,3 @@ function CreateArea(props) {
     </div>
   );
 }
-
-export default CreateArea;

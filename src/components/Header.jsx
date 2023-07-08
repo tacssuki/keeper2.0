@@ -1,7 +1,7 @@
 import React from "react";
 import { FaSun, FaMoon, IoMdExit } from "react-icons/fa";
 
-function Header({ darkMode, setDarkMode }) {
+export default function Header({ darkMode, setDarkMode }) {
   function toggleDarkMode() {
     setDarkMode(!darkMode);
   }
@@ -15,5 +15,3 @@ function Header({ darkMode, setDarkMode }) {
     </header>
   );
 }
-
-export default Header;
