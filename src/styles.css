@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background: #eee;
+  padding: 0 16px;
+}
 html {
   font-family: "Montserrat", sans-serif;
 }
@@ -32,16 +36,37 @@ button {
   border-radius: 5px;
   font-weight: bold;
 }
-button:hover {
+
+.p-onLogin {
+  text-align: center;
+  text-decoration: none;
+}
+
+.login-btn,
+.register-btn {
+  background-color: #f5ba13;
+  font-size: 1em;
+  padding: 10px 20px;
+}
+.regbtn,
+.logbtn {
+  border-radius: 5px;
+  border: #333;
+  outline: auto;
+  font-size: 1em;
+  padding: 10px 20px;
+}
+.regbtn:hover,
+.logbtn:hover,
+.login-btn:hover,
+.register-btn:hover {
+  color: #ccc;
   background-color: #555;
 }
 
-.login-btn {
-  background-color: #f5ba13;
-}
-body {
-  background: #eee;
-  padding: 0 16px;
+.inputLogin,
+.inputRegister {
+  border-bottom: 2px solid #f5ba13;
 }
 
 header {
@@ -67,8 +92,8 @@ footer p {
 footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 2.5rem;
+  width: 96%;
+  height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
